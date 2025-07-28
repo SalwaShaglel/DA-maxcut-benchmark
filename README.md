@@ -9,6 +9,8 @@ Salwa Shaglel, Markus Kirsch, Marten Winkler, Christian Münch, Stefan Walter, F
 **Published:** 2025  
 **[arXiv Link](https://arxiv.org/abs/00000000000)** [CITE]
 
+[CITING INSTRUCTIONS]
+
 ---
 
 ## Benchmarks Overview
