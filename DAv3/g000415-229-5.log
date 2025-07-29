@@ -1,0 +1,741 @@
++--------------+--------------+--------------+--------------+------------------+--------------+
+|         load |        build |        solve |     evaluate |              cut |        total |
++--------------+--------------+--------------+--------------+------------------+--------------+
+Total...
+Creating variable map...
+Creating variable map done 410.237518 msec
+Counting QUBO weights...
+Counting QUBO weights done 202.107063 msec
+Converting QUBO to CRS format...
+  Adding weights...
+  Adding weights done 1935.334596 msec
+  Creating CRS data...
+  Creating CRS data done 1.212398 msec
+Converting QUBO to CRS format done 1936.625503 msec
+scaling factor: 1
+number of QUBO weights: 35661, rate: 0.0%
+Solve...
+Progress: 4.377[s], energy -1916607, penalty energy 0, src id 0
+Progress: 4.378[s], energy -1918433, penalty energy 0, src id 0
+Progress: 4.379[s], energy -1918651, penalty energy 0, src id 0
+Progress: 6.944[s], energy -1945546, penalty energy 0, src id 0
+Progress: 6.944[s], energy -1946806, penalty energy 0, src id 0
+Progress: 6.944[s], energy -1947126, penalty energy 0, src id 0
+Progress: 6.944[s], energy -1947277, penalty energy 0, src id 0
+Progress: 6.944[s], energy -1949921, penalty energy 0, src id 0
+Progress: 8.437[s], energy -1966968, penalty energy 0, src id 0
+Progress: 8.437[s], energy -1967614, penalty energy 0, src id 0
+Progress: 9.792[s], energy -1978147, penalty energy 0, src id 0
+Progress: 9.792[s], energy -1978187, penalty energy 0, src id 0
+Progress: 10.757[s], energy -1983081, penalty energy 0, src id 0
+Progress: 10.758[s], energy -1984027, penalty energy 0, src id 0
+Progress: 11.681[s], energy -1986659, penalty energy 0, src id 0
+Progress: 12.558[s], energy -1987761, penalty energy 0, src id 0
+Progress: 12.558[s], energy -1987777, penalty energy 0, src id 0
+Progress: 12.558[s], energy -1988171, penalty energy 0, src id 0
+Progress: 13.439[s], energy -1988471, penalty energy 0, src id 0
+Progress: 13.439[s], energy -1988577, penalty energy 0, src id 0
+Progress: 13.439[s], energy -1988623, penalty energy 0, src id 0
+Progress: 14.129[s], energy -1989127, penalty energy 0, src id 0
+Progress: 14.129[s], energy -1989325, penalty energy 0, src id 0
+Progress: 14.900[s], energy -1989343, penalty energy 0, src id 0
+Progress: 15.684[s], energy -1989491, penalty energy 0, src id 0
+Progress: 15.685[s], energy -1989575, penalty energy 0, src id 0
+Progress: 16.409[s], energy -1989771, penalty energy 0, src id 0
+Progress: 16.410[s], energy -1989779, penalty energy 0, src id 0
+Progress: 16.411[s], energy -1989811, penalty energy 0, src id 0
+Progress: 17.149[s], energy -1990219, penalty energy 0, src id 0
+Progress: 17.149[s], energy -1990319, penalty energy 0, src id 0
+Progress: 17.949[s], energy -1990809, penalty energy 0, src id 0
+Progress: 17.949[s], energy -1990875, penalty energy 0, src id 0
+Progress: 18.718[s], energy -1991185, penalty energy 0, src id 0
+Progress: 19.402[s], energy -1991389, penalty energy 0, src id 0
+Progress: 19.402[s], energy -1991391, penalty energy 0, src id 0
+Progress: 19.402[s], energy -1991405, penalty energy 0, src id 0
+Progress: 19.402[s], energy -1991485, penalty energy 0, src id 0
+Progress: 20.186[s], energy -1991865, penalty energy 0, src id 0
+Progress: 20.186[s], energy -1991871, penalty energy 0, src id 0
+Progress: 20.888[s], energy -1992211, penalty energy 0, src id 0
+Progress: 20.888[s], energy -1992217, penalty energy 0, src id 0
+Progress: 20.888[s], energy -1992251, penalty energy 0, src id 0
+Progress: 20.888[s], energy -1992255, penalty energy 0, src id 0
+Progress: 21.673[s], energy -1992467, penalty energy 0, src id 0
+Progress: 22.380[s], energy -1992483, penalty energy 0, src id 0
+Progress: 22.380[s], energy -1992509, penalty energy 0, src id 0
+Progress: 22.381[s], energy -1992577, penalty energy 0, src id 0
+Progress: 23.177[s], energy -1992603, penalty energy 0, src id 0
+Progress: 23.178[s], energy -1992605, penalty energy 0, src id 0
+Progress: 26.725[s], energy -1994805, penalty energy 0, src id 1
+Progress: 37.051[s], energy -1995137, penalty energy 0, src id 0
+Progress: 37.051[s], energy -1995255, penalty energy 0, src id 0
+Progress: 37.052[s], energy -1995345, penalty energy 0, src id 0
+Progress: 38.971[s], energy -1998611, penalty energy 0, src id 1
+Progress: 50.821[s], energy -2001007, penalty energy 0, src id 1
+Progress: 63.007[s], energy -2003519, penalty energy 0, src id 1
+Progress: 74.781[s], energy -2004996, penalty energy 0, src id 1
+Progress: 86.474[s], energy -2006443, penalty energy 0, src id 1
+Progress: 91.850[s], energy -2006900, penalty energy 0, src id 0
+Progress: 91.851[s], energy -2007144, penalty energy 0, src id 0
+Progress: 92.638[s], energy -2007876, penalty energy 0, src id 0
+Progress: 92.638[s], energy -2008141, penalty energy 0, src id 0
+Progress: 93.362[s], energy -2008537, penalty energy 0, src id 0
+Progress: 94.076[s], energy -2008793, penalty energy 0, src id 0
+Progress: 94.077[s], energy -2008826, penalty energy 0, src id 0
+Progress: 94.077[s], energy -2008881, penalty energy 0, src id 0
+Progress: 94.826[s], energy -2008983, penalty energy 0, src id 0
+Progress: 95.558[s], energy -2009023, penalty energy 0, src id 0
+Progress: 109.869[s], energy -2010013, penalty energy 0, src id 1
+Progress: 121.291[s], energy -2010993, penalty energy 0, src id 1
+Progress: 133.048[s], energy -2011679, penalty energy 0, src id 1
+Progress: 141.726[s], energy -2011919, penalty energy 0, src id 0
+Progress: 142.403[s], energy -2012061, penalty energy 0, src id 0
+Progress: 142.404[s], energy -2012065, penalty energy 0, src id 0
+Progress: 143.101[s], energy -2012171, penalty energy 0, src id 0
+Progress: 143.101[s], energy -2012173, penalty energy 0, src id 0
+Progress: 143.101[s], energy -2012187, penalty energy 0, src id 0
+Progress: 143.816[s], energy -2012189, penalty energy 0, src id 0
+Progress: 143.817[s], energy -2012191, penalty energy 0, src id 0
+Progress: 143.817[s], energy -2012193, penalty energy 0, src id 0
+Progress: 156.315[s], energy -2012427, penalty energy 0, src id 1
+Progress: 165.443[s], energy -2012439, penalty energy 0, src id 0
+Progress: 167.816[s], energy -2012831, penalty energy 0, src id 1
+Progress: 174.563[s], energy -2012873, penalty energy 0, src id 0
+Progress: 174.563[s], energy -2012897, penalty energy 0, src id 0
+Progress: 176.320[s], energy -2013117, penalty energy 0, src id 0
+Progress: 176.320[s], energy -2013177, penalty energy 0, src id 0
+Progress: 177.807[s], energy -2013189, penalty energy 0, src id 0
+Progress: 179.409[s], energy -2013233, penalty energy 0, src id 1
+Progress: 189.042[s], energy -2013291, penalty energy 0, src id 0
+Progress: 189.043[s], energy -2013321, penalty energy 0, src id 0
+Progress: 190.136[s], energy -2013857, penalty energy 0, src id 0
+Progress: 190.136[s], energy -2013861, penalty energy 0, src id 0
+Progress: 190.136[s], energy -2013869, penalty energy 0, src id 0
+Progress: 190.136[s], energy -2013887, penalty energy 0, src id 0
+Progress: 190.953[s], energy -2014039, penalty energy 0, src id 0
+Progress: 191.655[s], energy -2014075, penalty energy 0, src id 0
+Progress: 191.655[s], energy -2014087, penalty energy 0, src id 0
+Progress: 202.374[s], energy -2014309, penalty energy 0, src id 1
+Progress: 213.872[s], energy -2014801, penalty energy 0, src id 1
+Progress: 225.052[s], energy -2015055, penalty energy 0, src id 1
+Progress: 226.336[s], energy -2015209, penalty energy 0, src id 0
+Progress: 226.336[s], energy -2015275, penalty energy 0, src id 0
+Progress: 227.068[s], energy -2015369, penalty energy 0, src id 0
+Progress: 227.762[s], energy -2015397, penalty energy 0, src id 0
+Progress: 227.762[s], energy -2015405, penalty energy 0, src id 0
+Solve done 229168.396653 msec
+Total done 231741.450912 msec
+|        25.24 |       560.28 |    231744.54 |         0.32 |         +2015405 |    232305.14 |
+Total...
+Creating variable map...
+Creating variable map done 408.833036 msec
+Counting QUBO weights...
+Counting QUBO weights done 206.273822 msec
+Converting QUBO to CRS format...
+  Adding weights...
+  Adding weights done 1956.766724 msec
+  Creating CRS data...
+  Creating CRS data done 0.606926 msec
+Converting QUBO to CRS format done 1957.426030 msec
+scaling factor: 1
+number of QUBO weights: 35661, rate: 0.0%
+Solve...
+Progress: 4.135[s], energy -1914167, penalty energy 0, src id 0
+Progress: 4.135[s], energy -1915423, penalty energy 0, src id 0
+Progress: 4.135[s], energy -1918081, penalty energy 0, src id 0
+Progress: 6.611[s], energy -1946822, penalty energy 0, src id 0
+Progress: 6.611[s], energy -1948936, penalty energy 0, src id 0
+Progress: 6.611[s], energy -1949459, penalty energy 0, src id 0
+Progress: 8.355[s], energy -1967641, penalty energy 0, src id 0
+Progress: 9.726[s], energy -1975674, penalty energy 0, src id 0
+Progress: 9.726[s], energy -1976187, penalty energy 0, src id 0
+Progress: 9.726[s], energy -1976353, penalty energy 0, src id 0
+Progress: 9.726[s], energy -1976533, penalty energy 0, src id 0
+Progress: 10.817[s], energy -1982538, penalty energy 0, src id 0
+Progress: 10.818[s], energy -1982587, penalty energy 0, src id 0
+Progress: 11.724[s], energy -1985359, penalty energy 0, src id 0
+Progress: 11.725[s], energy -1985402, penalty energy 0, src id 0
+Progress: 11.725[s], energy -1985918, penalty energy 0, src id 0
+Progress: 12.558[s], energy -1987091, penalty energy 0, src id 0
+Progress: 12.558[s], energy -1987131, penalty energy 0, src id 0
+Progress: 12.558[s], energy -1987239, penalty energy 0, src id 0
+Progress: 12.558[s], energy -1987363, penalty energy 0, src id 0
+Progress: 13.362[s], energy -1987723, penalty energy 0, src id 0
+Progress: 13.362[s], energy -1987737, penalty energy 0, src id 0
+Progress: 13.363[s], energy -1987745, penalty energy 0, src id 0
+Progress: 13.363[s], energy -1987795, penalty energy 0, src id 0
+Progress: 14.085[s], energy -1988063, penalty energy 0, src id 0
+Progress: 14.085[s], energy -1988077, penalty energy 0, src id 0
+Progress: 14.085[s], energy -1988107, penalty energy 0, src id 0
+Progress: 14.910[s], energy -1988245, penalty energy 0, src id 0
+Progress: 14.911[s], energy -1988259, penalty energy 0, src id 0
+Progress: 14.911[s], energy -1988308, penalty energy 0, src id 0
+Progress: 15.571[s], energy -1988362, penalty energy 0, src id 0
+Progress: 15.571[s], energy -1988364, penalty energy 0, src id 0
+Progress: 16.333[s], energy -1988606, penalty energy 0, src id 0
+Progress: 17.038[s], energy -1988728, penalty energy 0, src id 0
+Progress: 17.038[s], energy -1988788, penalty energy 0, src id 0
+Progress: 17.777[s], energy -1989036, penalty energy 0, src id 0
+Progress: 17.777[s], energy -1989084, penalty energy 0, src id 0
+Progress: 18.474[s], energy -1989318, penalty energy 0, src id 0
+Progress: 18.474[s], energy -1989420, penalty energy 0, src id 0
+Progress: 19.281[s], energy -1989590, penalty energy 0, src id 0
+Progress: 19.281[s], energy -1989594, penalty energy 0, src id 0
+Progress: 19.282[s], energy -1989652, penalty energy 0, src id 0
+Progress: 19.971[s], energy -1989830, penalty energy 0, src id 0
+Progress: 19.972[s], energy -1989898, penalty energy 0, src id 0
+Progress: 19.972[s], energy -1989908, penalty energy 0, src id 0
+Progress: 20.789[s], energy -1990286, penalty energy 0, src id 0
+Progress: 21.484[s], energy -1990324, penalty energy 0, src id 0
+Progress: 21.484[s], energy -1990340, penalty energy 0, src id 0
+Progress: 22.243[s], energy -1990446, penalty energy 0, src id 0
+Progress: 22.243[s], energy -1990450, penalty energy 0, src id 0
+Progress: 23.071[s], energy -1990740, penalty energy 0, src id 0
+Progress: 23.757[s], energy -1990930, penalty energy 0, src id 0
+Progress: 23.757[s], energy -1990962, penalty energy 0, src id 0
+Progress: 24.472[s], energy -1991110, penalty energy 0, src id 0
+Progress: 25.183[s], energy -1991370, penalty energy 0, src id 0
+Progress: 25.183[s], energy -1991410, penalty energy 0, src id 0
+Progress: 25.919[s], energy -1991436, penalty energy 0, src id 0
+Progress: 25.919[s], energy -1991442, penalty energy 0, src id 0
+Progress: 26.598[s], energy -1991598, penalty energy 0, src id 0
+Progress: 26.598[s], energy -1991600, penalty energy 0, src id 0
+Progress: 26.598[s], energy -1991632, penalty energy 0, src id 0
+Progress: 27.020[s], energy -1993005, penalty energy 0, src id 1
+Progress: 28.205[s], energy -1994035, penalty energy 0, src id 0
+Progress: 28.205[s], energy -1994062, penalty energy 0, src id 0
+Progress: 28.975[s], energy -1994977, penalty energy 0, src id 0
+Progress: 28.976[s], energy -1994993, penalty energy 0, src id 0
+Progress: 29.719[s], energy -1995227, penalty energy 0, src id 0
+Progress: 29.719[s], energy -1995231, penalty energy 0, src id 0
+Progress: 29.719[s], energy -1995235, penalty energy 0, src id 0
+Progress: 29.719[s], energy -1995269, penalty energy 0, src id 0
+Progress: 30.424[s], energy -1995329, penalty energy 0, src id 0
+Progress: 30.424[s], energy -1995339, penalty energy 0, src id 0
+Progress: 31.179[s], energy -1995509, penalty energy 0, src id 0
+Progress: 31.179[s], energy -1995537, penalty energy 0, src id 0
+Progress: 31.179[s], energy -1995559, penalty energy 0, src id 0
+Progress: 31.942[s], energy -1995651, penalty energy 0, src id 0
+Progress: 32.637[s], energy -1995677, penalty energy 0, src id 0
+Progress: 33.370[s], energy -1995723, penalty energy 0, src id 0
+Progress: 33.371[s], energy -1995725, penalty energy 0, src id 0
+Progress: 39.151[s], energy -1997189, penalty energy 0, src id 1
+Progress: 45.448[s], energy -1998390, penalty energy 0, src id 0
+Progress: 46.248[s], energy -1998918, penalty energy 0, src id 0
+Progress: 46.248[s], energy -1998973, penalty energy 0, src id 0
+Progress: 46.248[s], energy -1999002, penalty energy 0, src id 0
+Progress: 46.940[s], energy -1999257, penalty energy 0, src id 0
+Progress: 46.940[s], energy -1999339, penalty energy 0, src id 0
+Progress: 47.702[s], energy -1999418, penalty energy 0, src id 0
+Progress: 47.702[s], energy -1999450, penalty energy 0, src id 0
+Progress: 48.366[s], energy -1999477, penalty energy 0, src id 0
+Progress: 48.366[s], energy -1999517, penalty energy 0, src id 0
+Progress: 48.366[s], energy -1999545, penalty energy 0, src id 0
+Progress: 49.156[s], energy -1999753, penalty energy 0, src id 0
+Progress: 51.281[s], energy -1999803, penalty energy 0, src id 0
+Progress: 62.083[s], energy -1999836, penalty energy 0, src id 0
+Progress: 62.964[s], energy -2001171, penalty energy 0, src id 1
+Progress: 65.572[s], energy -2001791, penalty energy 0, src id 0
+Progress: 66.524[s], energy -2002276, penalty energy 0, src id 0
+Progress: 66.525[s], energy -2002430, penalty energy 0, src id 0
+Progress: 67.274[s], energy -2002708, penalty energy 0, src id 0
+Progress: 67.274[s], energy -2002764, penalty energy 0, src id 0
+Progress: 67.965[s], energy -2002944, penalty energy 0, src id 0
+Progress: 67.965[s], energy -2002972, penalty energy 0, src id 0
+Progress: 67.965[s], energy -2003098, penalty energy 0, src id 0
+Progress: 68.673[s], energy -2003162, penalty energy 0, src id 0
+Progress: 69.411[s], energy -2003190, penalty energy 0, src id 0
+Progress: 70.170[s], energy -2003260, penalty energy 0, src id 0
+Progress: 70.929[s], energy -2003386, penalty energy 0, src id 0
+Progress: 70.929[s], energy -2003438, penalty energy 0, src id 0
+Progress: 79.955[s], energy -2003492, penalty energy 0, src id 0
+Progress: 79.956[s], energy -2003580, penalty energy 0, src id 0
+Progress: 82.496[s], energy -2004256, penalty energy 0, src id 0
+Progress: 83.258[s], energy -2004358, penalty energy 0, src id 0
+Progress: 83.258[s], energy -2004360, penalty energy 0, src id 0
+Progress: 86.830[s], energy -2004678, penalty energy 0, src id 1
+Progress: 92.571[s], energy -2005638, penalty energy 0, src id 0
+Progress: 92.571[s], energy -2005754, penalty energy 0, src id 0
+Progress: 93.358[s], energy -2006198, penalty energy 0, src id 0
+Progress: 93.358[s], energy -2006246, penalty energy 0, src id 0
+Progress: 93.358[s], energy -2006304, penalty energy 0, src id 0
+Progress: 94.219[s], energy -2006570, penalty energy 0, src id 0
+Progress: 94.975[s], energy -2006686, penalty energy 0, src id 0
+Progress: 95.630[s], energy -2006742, penalty energy 0, src id 0
+Progress: 95.630[s], energy -2006744, penalty energy 0, src id 0
+Progress: 109.968[s], energy -2007254, penalty energy 0, src id 1
+Progress: 111.976[s], energy -2007316, penalty energy 0, src id 0
+Progress: 112.651[s], energy -2007350, penalty energy 0, src id 0
+Progress: 121.645[s], energy -2008154, penalty energy 0, src id 1
+Progress: 123.300[s], energy -2008324, penalty energy 0, src id 0
+Progress: 123.301[s], energy -2008444, penalty energy 0, src id 0
+Progress: 124.120[s], energy -2008612, penalty energy 0, src id 0
+Progress: 124.120[s], energy -2008622, penalty energy 0, src id 0
+Progress: 124.121[s], energy -2008688, penalty energy 0, src id 0
+Progress: 124.944[s], energy -2008740, penalty energy 0, src id 0
+Progress: 124.945[s], energy -2008744, penalty energy 0, src id 0
+Progress: 125.670[s], energy -2008750, penalty energy 0, src id 0
+Progress: 126.352[s], energy -2008838, penalty energy 0, src id 0
+Progress: 140.270[s], energy -2009006, penalty energy 0, src id 0
+Progress: 140.271[s], energy -2009056, penalty energy 0, src id 0
+Progress: 140.978[s], energy -2009364, penalty energy 0, src id 0
+Progress: 141.716[s], energy -2009446, penalty energy 0, src id 0
+Progress: 141.716[s], energy -2009448, penalty energy 0, src id 0
+Progress: 142.472[s], energy -2009472, penalty energy 0, src id 0
+Progress: 144.952[s], energy -2009680, penalty energy 0, src id 1
+Progress: 156.505[s], energy -2009900, penalty energy 0, src id 1
+Progress: 164.198[s], energy -2010070, penalty energy 0, src id 0
+Progress: 164.198[s], energy -2010090, penalty energy 0, src id 0
+Progress: 164.199[s], energy -2010114, penalty energy 0, src id 0
+Progress: 164.897[s], energy -2010152, penalty energy 0, src id 0
+Progress: 167.515[s], energy -2010176, penalty energy 0, src id 0
+Progress: 167.964[s], energy -2010416, penalty energy 0, src id 1
+Progress: 180.020[s], energy -2011034, penalty energy 0, src id 1
+Progress: 191.492[s], energy -2011268, penalty energy 0, src id 1
+Progress: 194.517[s], energy -2011540, penalty energy 0, src id 0
+Progress: 195.318[s], energy -2011652, penalty energy 0, src id 0
+Progress: 195.318[s], energy -2011660, penalty energy 0, src id 0
+Progress: 195.318[s], energy -2011740, penalty energy 0, src id 0
+Progress: 196.007[s], energy -2011748, penalty energy 0, src id 0
+Progress: 210.395[s], energy -2011786, penalty energy 0, src id 0
+Progress: 214.104[s], energy -2012160, penalty energy 0, src id 0
+Progress: 214.104[s], energy -2012164, penalty energy 0, src id 0
+Progress: 214.104[s], energy -2012186, penalty energy 0, src id 0
+Progress: 214.866[s], energy -2012316, penalty energy 0, src id 0
+Progress: 214.866[s], energy -2012318, penalty energy 0, src id 0
+Progress: 214.866[s], energy -2012342, penalty energy 0, src id 0
+Progress: 215.609[s], energy -2012344, penalty energy 0, src id 0
+Progress: 226.833[s], energy -2012578, penalty energy 0, src id 1
+Progress: 230.680[s], energy -2012588, penalty energy 0, src id 1
+Solve done 230691.757746 msec
+Total done 233287.005970 msec
+|        25.24 |       548.15 |    233289.93 |         0.71 |         +2012588 |    233838.80 |
+Total...
+Creating variable map...
+Creating variable map done 409.487460 msec
+Counting QUBO weights...
+Counting QUBO weights done 208.769172 msec
+Converting QUBO to CRS format...
+  Adding weights...
+  Adding weights done 1938.913434 msec
+  Creating CRS data...
+  Creating CRS data done 0.841221 msec
+Converting QUBO to CRS format done 1939.815576 msec
+scaling factor: 1
+number of QUBO weights: 35661, rate: 0.0%
+Solve...
+Progress: 4.211[s], energy -1919200, penalty energy 0, src id 0
+Progress: 4.212[s], energy -1919654, penalty energy 0, src id 0
+Progress: 4.212[s], energy -1920483, penalty energy 0, src id 0
+Progress: 6.638[s], energy -1950653, penalty energy 0, src id 0
+Progress: 6.639[s], energy -1951958, penalty energy 0, src id 0
+Progress: 6.639[s], energy -1953007, penalty energy 0, src id 0
+Progress: 8.468[s], energy -1968469, penalty energy 0, src id 0
+Progress: 8.469[s], energy -1968601, penalty energy 0, src id 0
+Progress: 8.469[s], energy -1968885, penalty energy 0, src id 0
+Progress: 9.909[s], energy -1979179, penalty energy 0, src id 0
+Progress: 9.909[s], energy -1979331, penalty energy 0, src id 0
+Progress: 11.105[s], energy -1984770, penalty energy 0, src id 0
+Progress: 11.105[s], energy -1984866, penalty energy 0, src id 0
+Progress: 12.485[s], energy -1987185, penalty energy 0, src id 0
+Progress: 12.486[s], energy -1987306, penalty energy 0, src id 0
+Progress: 12.486[s], energy -1987325, penalty energy 0, src id 0
+Progress: 13.396[s], energy -1988716, penalty energy 0, src id 0
+Progress: 13.396[s], energy -1988794, penalty energy 0, src id 0
+Progress: 14.241[s], energy -1989087, penalty energy 0, src id 0
+Progress: 14.241[s], energy -1989208, penalty energy 0, src id 0
+Progress: 15.184[s], energy -1989306, penalty energy 0, src id 0
+Progress: 15.184[s], energy -1989374, penalty energy 0, src id 0
+Progress: 15.184[s], energy -1989386, penalty energy 0, src id 0
+Progress: 16.020[s], energy -1989496, penalty energy 0, src id 0
+Progress: 16.020[s], energy -1989592, penalty energy 0, src id 0
+Progress: 16.790[s], energy -1989776, penalty energy 0, src id 0
+Progress: 16.790[s], energy -1989780, penalty energy 0, src id 0
+Progress: 16.790[s], energy -1989834, penalty energy 0, src id 0
+Progress: 17.613[s], energy -1990190, penalty energy 0, src id 0
+Progress: 17.613[s], energy -1990206, penalty energy 0, src id 0
+Progress: 18.319[s], energy -1990415, penalty energy 0, src id 0
+Progress: 19.089[s], energy -1990464, penalty energy 0, src id 0
+Progress: 19.089[s], energy -1990507, penalty energy 0, src id 0
+Progress: 19.765[s], energy -1990761, penalty energy 0, src id 0
+Progress: 20.567[s], energy -1990919, penalty energy 0, src id 0
+Progress: 20.567[s], energy -1990921, penalty energy 0, src id 0
+Progress: 21.245[s], energy -1990968, penalty energy 0, src id 0
+Progress: 21.245[s], energy -1991010, penalty energy 0, src id 0
+Progress: 22.010[s], energy -1991116, penalty energy 0, src id 0
+Progress: 22.746[s], energy -1991178, penalty energy 0, src id 0
+Progress: 22.746[s], energy -1991194, penalty energy 0, src id 0
+Progress: 22.746[s], energy -1991204, penalty energy 0, src id 0
+Progress: 23.523[s], energy -1991420, penalty energy 0, src id 0
+Progress: 23.524[s], energy -1991520, penalty energy 0, src id 0
+Progress: 26.463[s], energy -1991582, penalty energy 0, src id 0
+Progress: 26.581[s], energy -1993865, penalty energy 0, src id 1
+Progress: 36.330[s], energy -1994952, penalty energy 0, src id 0
+Progress: 36.331[s], energy -1995167, penalty energy 0, src id 0
+Progress: 37.104[s], energy -1996610, penalty energy 0, src id 0
+Progress: 37.915[s], energy -1997020, penalty energy 0, src id 0
+Progress: 37.915[s], energy -1997071, penalty energy 0, src id 0
+Progress: 37.915[s], energy -1997126, penalty energy 0, src id 0
+Progress: 38.584[s], energy -1997359, penalty energy 0, src id 1
+Progress: 38.700[s], energy -1997434, penalty energy 0, src id 0
+Progress: 38.700[s], energy -1997482, penalty energy 0, src id 0
+Progress: 39.433[s], energy -1997644, penalty energy 0, src id 0
+Progress: 40.217[s], energy -1997664, penalty energy 0, src id 0
+Progress: 40.217[s], energy -1997694, penalty energy 0, src id 0
+Progress: 40.898[s], energy -1997702, penalty energy 0, src id 0
+Progress: 50.569[s], energy -1999727, penalty energy 0, src id 1
+Progress: 62.459[s], energy -2001599, penalty energy 0, src id 1
+Progress: 74.072[s], energy -2002549, penalty energy 0, src id 1
+Progress: 85.717[s], energy -2003549, penalty energy 0, src id 1
+Progress: 97.400[s], energy -2004449, penalty energy 0, src id 1
+Progress: 106.324[s], energy -2004661, penalty energy 0, src id 0
+Progress: 107.193[s], energy -2005721, penalty energy 0, src id 0
+Progress: 107.193[s], energy -2005827, penalty energy 0, src id 0
+Progress: 107.891[s], energy -2005989, penalty energy 0, src id 0
+Progress: 107.892[s], energy -2006107, penalty energy 0, src id 0
+Progress: 108.633[s], energy -2006253, penalty energy 0, src id 0
+Progress: 108.634[s], energy -2006307, penalty energy 0, src id 0
+Progress: 109.371[s], energy -2006323, penalty energy 0, src id 0
+Progress: 119.683[s], energy -2006569, penalty energy 0, src id 0
+Progress: 119.684[s], energy -2006721, penalty energy 0, src id 0
+Progress: 122.492[s], energy -2006891, penalty energy 0, src id 0
+Progress: 125.607[s], energy -2006899, penalty energy 0, src id 0
+Progress: 132.153[s], energy -2007361, penalty energy 0, src id 1
+Progress: 143.758[s], energy -2008161, penalty energy 0, src id 1
+Progress: 155.474[s], energy -2009327, penalty energy 0, src id 1
+Progress: 159.504[s], energy -2009341, penalty energy 0, src id 0
+Progress: 159.504[s], energy -2009387, penalty energy 0, src id 0
+Progress: 167.066[s], energy -2009805, penalty energy 0, src id 1
+Progress: 178.480[s], energy -2010795, penalty energy 0, src id 1
+Progress: 190.062[s], energy -2011244, penalty energy 0, src id 1
+Progress: 201.473[s], energy -2012034, penalty energy 0, src id 1
+Progress: 212.747[s], energy -2012194, penalty energy 0, src id 0
+Progress: 212.748[s], energy -2012204, penalty energy 0, src id 0
+Progress: 212.748[s], energy -2012256, penalty energy 0, src id 0
+Progress: 212.783[s], energy -2012292, penalty energy 0, src id 1
+Progress: 213.570[s], energy -2012404, penalty energy 0, src id 0
+Progress: 213.570[s], energy -2012418, penalty energy 0, src id 0
+Progress: 213.570[s], energy -2012426, penalty energy 0, src id 0
+Progress: 214.397[s], energy -2012458, penalty energy 0, src id 0
+Progress: 224.050[s], energy -2012496, penalty energy 0, src id 1
+Progress: 229.059[s], energy -2012874, penalty energy 0, src id 1
+Solve done 229066.408742 msec
+Total done 231644.913213 msec
+|        25.24 |       527.41 |    231647.52 |         0.32 |         +2012874 |    232175.25 |
+Total...
+Creating variable map...
+Creating variable map done 409.615880 msec
+Counting QUBO weights...
+Counting QUBO weights done 209.103881 msec
+Converting QUBO to CRS format...
+  Adding weights...
+  Adding weights done 1924.476810 msec
+  Creating CRS data...
+  Creating CRS data done 1.587313 msec
+Converting QUBO to CRS format done 1926.139766 msec
+scaling factor: 1
+number of QUBO weights: 35661, rate: 0.0%
+Solve...
+Progress: 3.963[s], energy -1915338, penalty energy 0, src id 0
+Progress: 3.963[s], energy -1917677, penalty energy 0, src id 0
+Progress: 6.392[s], energy -1945678, penalty energy 0, src id 0
+Progress: 6.392[s], energy -1945938, penalty energy 0, src id 0
+Progress: 6.392[s], energy -1948488, penalty energy 0, src id 0
+Progress: 7.990[s], energy -1957961, penalty energy 0, src id 0
+Progress: 7.990[s], energy -1957987, penalty energy 0, src id 0
+Progress: 7.990[s], energy -1959573, penalty energy 0, src id 0
+Progress: 9.146[s], energy -1968421, penalty energy 0, src id 0
+Progress: 10.243[s], energy -1972343, penalty energy 0, src id 0
+Progress: 10.243[s], energy -1972841, penalty energy 0, src id 0
+Progress: 11.163[s], energy -1974289, penalty energy 0, src id 0
+Progress: 12.002[s], energy -1974861, penalty energy 0, src id 0
+Progress: 12.003[s], energy -1974917, penalty energy 0, src id 0
+Progress: 12.738[s], energy -1975237, penalty energy 0, src id 0
+Progress: 12.738[s], energy -1975307, penalty energy 0, src id 0
+Progress: 13.513[s], energy -1975525, penalty energy 0, src id 0
+Progress: 14.289[s], energy -1975589, penalty energy 0, src id 0
+Progress: 14.289[s], energy -1975649, penalty energy 0, src id 0
+Progress: 15.006[s], energy -1975721, penalty energy 0, src id 0
+Progress: 15.007[s], energy -1975747, penalty energy 0, src id 0
+Progress: 15.745[s], energy -1975921, penalty energy 0, src id 0
+Progress: 15.745[s], energy -1976027, penalty energy 0, src id 0
+Progress: 16.544[s], energy -1976285, penalty energy 0, src id 0
+Progress: 17.234[s], energy -1976293, penalty energy 0, src id 0
+Progress: 17.234[s], energy -1976361, penalty energy 0, src id 0
+Progress: 17.986[s], energy -1976729, penalty energy 0, src id 0
+Progress: 17.986[s], energy -1976797, penalty energy 0, src id 0
+Progress: 17.986[s], energy -1976801, penalty energy 0, src id 0
+Progress: 18.781[s], energy -1976959, penalty energy 0, src id 0
+Progress: 18.782[s], energy -1976965, penalty energy 0, src id 0
+Progress: 18.782[s], energy -1977047, penalty energy 0, src id 0
+Progress: 18.782[s], energy -1977269, penalty energy 0, src id 0
+Progress: 19.523[s], energy -1977539, penalty energy 0, src id 0
+Progress: 20.375[s], energy -1977785, penalty energy 0, src id 0
+Progress: 21.100[s], energy -1977931, penalty energy 0, src id 0
+Progress: 21.101[s], energy -1977933, penalty energy 0, src id 0
+Progress: 21.101[s], energy -1978013, penalty energy 0, src id 0
+Progress: 21.894[s], energy -1978259, penalty energy 0, src id 0
+Progress: 21.895[s], energy -1978279, penalty energy 0, src id 0
+Progress: 21.895[s], energy -1978339, penalty energy 0, src id 0
+Progress: 22.566[s], energy -1978439, penalty energy 0, src id 0
+Progress: 23.315[s], energy -1978595, penalty energy 0, src id 0
+Progress: 23.316[s], energy -1978607, penalty energy 0, src id 0
+Progress: 23.316[s], energy -1978631, penalty energy 0, src id 0
+Progress: 23.995[s], energy -1978867, penalty energy 0, src id 0
+Progress: 23.995[s], energy -1978877, penalty energy 0, src id 0
+Progress: 24.780[s], energy -1979037, penalty energy 0, src id 0
+Progress: 24.780[s], energy -1979175, penalty energy 0, src id 0
+Progress: 25.612[s], energy -1979285, penalty energy 0, src id 0
+Progress: 25.614[s], energy -1979347, penalty energy 0, src id 0
+Progress: 26.391[s], energy -1979613, penalty energy 0, src id 0
+Progress: 26.392[s], energy -1979725, penalty energy 0, src id 0
+Progress: 26.895[s], energy -1981850, penalty energy 0, src id 1
+Progress: 27.890[s], energy -1982366, penalty energy 0, src id 0
+Progress: 28.709[s], energy -1982804, penalty energy 0, src id 0
+Progress: 29.481[s], energy -1983046, penalty energy 0, src id 0
+Progress: 29.481[s], energy -1983050, penalty energy 0, src id 0
+Progress: 30.242[s], energy -1983336, penalty energy 0, src id 0
+Progress: 30.917[s], energy -1983614, penalty energy 0, src id 0
+Progress: 31.720[s], energy -1983906, penalty energy 0, src id 0
+Progress: 31.720[s], energy -1983978, penalty energy 0, src id 0
+Progress: 32.422[s], energy -1984436, penalty energy 0, src id 0
+Progress: 32.422[s], energy -1984446, penalty energy 0, src id 0
+Progress: 33.211[s], energy -1984576, penalty energy 0, src id 0
+Progress: 33.211[s], energy -1984588, penalty energy 0, src id 0
+Progress: 33.211[s], energy -1984628, penalty energy 0, src id 0
+Progress: 33.881[s], energy -1984642, penalty energy 0, src id 0
+Progress: 33.881[s], energy -1984836, penalty energy 0, src id 0
+Progress: 39.230[s], energy -1985884, penalty energy 0, src id 1
+Progress: 45.751[s], energy -1986288, penalty energy 0, src id 0
+Progress: 45.751[s], energy -1986500, penalty energy 0, src id 0
+Progress: 45.751[s], energy -1986554, penalty energy 0, src id 0
+Progress: 46.511[s], energy -1986990, penalty energy 0, src id 0
+Progress: 46.511[s], energy -1987090, penalty energy 0, src id 0
+Progress: 46.511[s], energy -1987108, penalty energy 0, src id 0
+Progress: 47.218[s], energy -1987330, penalty energy 0, src id 0
+Progress: 47.219[s], energy -1987362, penalty energy 0, src id 0
+Progress: 47.946[s], energy -1987438, penalty energy 0, src id 0
+Progress: 47.946[s], energy -1987440, penalty energy 0, src id 0
+Progress: 47.946[s], energy -1987444, penalty energy 0, src id 0
+Progress: 48.699[s], energy -1987496, penalty energy 0, src id 0
+Progress: 49.447[s], energy -1987542, penalty energy 0, src id 0
+Progress: 49.447[s], energy -1987564, penalty energy 0, src id 0
+Progress: 50.216[s], energy -1987570, penalty energy 0, src id 0
+Progress: 51.278[s], energy -1988596, penalty energy 0, src id 1
+Progress: 59.066[s], energy -1989420, penalty energy 0, src id 0
+Progress: 59.066[s], energy -1990044, penalty energy 0, src id 0
+Progress: 59.947[s], energy -1991126, penalty energy 0, src id 0
+Progress: 59.947[s], energy -1991334, penalty energy 0, src id 0
+Progress: 59.947[s], energy -1991378, penalty energy 0, src id 0
+Progress: 59.947[s], energy -1991498, penalty energy 0, src id 0
+Progress: 60.690[s], energy -1991928, penalty energy 0, src id 0
+Progress: 60.690[s], energy -1991948, penalty energy 0, src id 0
+Progress: 60.690[s], energy -1992046, penalty energy 0, src id 0
+Progress: 61.411[s], energy -1992404, penalty energy 0, src id 0
+Progress: 61.411[s], energy -1992474, penalty energy 0, src id 0
+Progress: 61.411[s], energy -1992530, penalty energy 0, src id 0
+Progress: 62.117[s], energy -1992706, penalty energy 0, src id 0
+Progress: 62.117[s], energy -1992804, penalty energy 0, src id 0
+Progress: 62.117[s], energy -1992820, penalty energy 0, src id 0
+Progress: 62.841[s], energy -1992842, penalty energy 0, src id 0
+Progress: 62.841[s], energy -1992844, penalty energy 0, src id 0
+Progress: 74.288[s], energy -1993720, penalty energy 0, src id 0
+Progress: 75.030[s], energy -1994132, penalty energy 0, src id 0
+Progress: 75.030[s], energy -1994226, penalty energy 0, src id 0
+Progress: 75.726[s], energy -1994394, penalty energy 0, src id 0
+Progress: 75.726[s], energy -1994442, penalty energy 0, src id 0
+Progress: 75.726[s], energy -1994456, penalty energy 0, src id 0
+Progress: 76.135[s], energy -1994846, penalty energy 0, src id 1
+Progress: 77.268[s], energy -1995295, penalty energy 0, src id 0
+Progress: 77.269[s], energy -1995300, penalty energy 0, src id 0
+Progress: 77.270[s], energy -1995467, penalty energy 0, src id 0
+Progress: 77.270[s], energy -1995471, penalty energy 0, src id 0
+Progress: 78.151[s], energy -1995674, penalty energy 0, src id 0
+Progress: 78.152[s], energy -1995718, penalty energy 0, src id 0
+Progress: 78.833[s], energy -1995758, penalty energy 0, src id 0
+Progress: 78.833[s], energy -1995760, penalty energy 0, src id 0
+Progress: 79.540[s], energy -1995800, penalty energy 0, src id 0
+Progress: 79.540[s], energy -1995842, penalty energy 0, src id 0
+Progress: 80.406[s], energy -1995872, penalty energy 0, src id 0
+Progress: 80.406[s], energy -1995876, penalty energy 0, src id 0
+Progress: 80.407[s], energy -1995886, penalty energy 0, src id 0
+Progress: 88.467[s], energy -1996266, penalty energy 0, src id 1
+Progress: 91.813[s], energy -1996634, penalty energy 0, src id 0
+Progress: 91.813[s], energy -1996642, penalty energy 0, src id 0
+Progress: 91.813[s], energy -1996710, penalty energy 0, src id 0
+Progress: 92.566[s], energy -1997124, penalty energy 0, src id 0
+Progress: 93.229[s], energy -1997243, penalty energy 0, src id 0
+Progress: 93.229[s], energy -1997284, penalty energy 0, src id 0
+Progress: 93.988[s], energy -1997386, penalty energy 0, src id 0
+Progress: 93.988[s], energy -1997400, penalty energy 0, src id 0
+Progress: 94.700[s], energy -1997416, penalty energy 0, src id 0
+Progress: 109.545[s], energy -1997476, penalty energy 0, src id 0
+Progress: 112.515[s], energy -1999082, penalty energy 0, src id 1
+Progress: 124.250[s], energy -1999964, penalty energy 0, src id 1
+Progress: 129.878[s], energy -2000386, penalty energy 0, src id 0
+Progress: 129.879[s], energy -2000444, penalty energy 0, src id 0
+Progress: 130.685[s], energy -2000888, penalty energy 0, src id 0
+Progress: 131.422[s], energy -2001060, penalty energy 0, src id 0
+Progress: 131.422[s], energy -2001068, penalty energy 0, src id 0
+Progress: 132.191[s], energy -2001122, penalty energy 0, src id 0
+Progress: 147.636[s], energy -2001594, penalty energy 0, src id 1
+Progress: 159.177[s], energy -2002114, penalty energy 0, src id 1
+Progress: 170.435[s], energy -2002786, penalty energy 0, src id 1
+Progress: 173.552[s], energy -2002814, penalty energy 0, src id 0
+Progress: 173.552[s], energy -2002966, penalty energy 0, src id 0
+Progress: 174.314[s], energy -2002976, penalty energy 0, src id 0
+Progress: 174.314[s], energy -2003058, penalty energy 0, src id 0
+Progress: 176.272[s], energy -2003068, penalty energy 0, src id 0
+Progress: 182.115[s], energy -2003136, penalty energy 0, src id 1
+Progress: 193.539[s], energy -2003412, penalty energy 0, src id 1
+Progress: 202.650[s], energy -2003550, penalty energy 0, src id 0
+Progress: 203.480[s], energy -2003878, penalty energy 0, src id 0
+Progress: 203.481[s], energy -2003912, penalty energy 0, src id 0
+Progress: 203.481[s], energy -2003964, penalty energy 0, src id 0
+Progress: 204.317[s], energy -2004180, penalty energy 0, src id 0
+Progress: 205.157[s], energy -2004198, penalty energy 0, src id 0
+Progress: 205.158[s], energy -2004226, penalty energy 0, src id 0
+Progress: 205.870[s], energy -2004272, penalty energy 0, src id 0
+Progress: 206.678[s], energy -2004274, penalty energy 0, src id 0
+Progress: 216.513[s], energy -2004548, penalty energy 0, src id 1
+Progress: 221.938[s], energy -2004706, penalty energy 0, src id 0
+Progress: 223.781[s], energy -2004722, penalty energy 0, src id 0
+Progress: 223.781[s], energy -2004800, penalty energy 0, src id 0
+Progress: 223.782[s], energy -2004888, penalty energy 0, src id 0
+Progress: 224.684[s], energy -2004894, penalty energy 0, src id 0
+Progress: 224.684[s], energy -2004926, penalty energy 0, src id 0
+Progress: 225.492[s], energy -2004974, penalty energy 0, src id 0
+Progress: 225.492[s], energy -2005006, penalty energy 0, src id 0
+Progress: 228.120[s], energy -2005156, penalty energy 0, src id 1
+Progress: 229.058[s], energy -2005164, penalty energy 0, src id 1
+Solve done 229162.478751 msec
+Total done 231727.017593 msec
+|        25.24 |       532.28 |    231729.49 |         0.36 |         +2005164 |    232262.12 |
+Total...
+Creating variable map...
+Creating variable map done 409.019382 msec
+Counting QUBO weights...
+Counting QUBO weights done 205.532809 msec
+Converting QUBO to CRS format...
+  Adding weights...
+  Adding weights done 1905.848433 msec
+  Creating CRS data...
+  Creating CRS data done 1.234956 msec
+Converting QUBO to CRS format done 1907.171366 msec
+scaling factor: 1
+number of QUBO weights: 35661, rate: 0.0%
+Solve...
+Progress: 4.251[s], energy -1917094, penalty energy 0, src id 0
+Progress: 4.252[s], energy -1918202, penalty energy 0, src id 0
+Progress: 4.252[s], energy -1922184, penalty energy 0, src id 0
+Progress: 7.083[s], energy -1946327, penalty energy 0, src id 0
+Progress: 7.084[s], energy -1946626, penalty energy 0, src id 0
+Progress: 7.084[s], energy -1947204, penalty energy 0, src id 0
+Progress: 9.297[s], energy -1963051, penalty energy 0, src id 0
+Progress: 9.298[s], energy -1964652, penalty energy 0, src id 0
+Progress: 11.038[s], energy -1975905, penalty energy 0, src id 0
+Progress: 11.038[s], energy -1976167, penalty energy 0, src id 0
+Progress: 12.005[s], energy -1981303, penalty energy 0, src id 0
+Progress: 12.005[s], energy -1981323, penalty energy 0, src id 0
+Progress: 12.006[s], energy -1981775, penalty energy 0, src id 0
+Progress: 12.006[s], energy -1981841, penalty energy 0, src id 0
+Progress: 13.024[s], energy -1984957, penalty energy 0, src id 0
+Progress: 13.880[s], energy -1986505, penalty energy 0, src id 0
+Progress: 13.881[s], energy -1986579, penalty energy 0, src id 0
+Progress: 14.703[s], energy -1986793, penalty energy 0, src id 0
+Progress: 14.703[s], energy -1986807, penalty energy 0, src id 0
+Progress: 14.703[s], energy -1986941, penalty energy 0, src id 0
+Progress: 15.538[s], energy -1987197, penalty energy 0, src id 0
+Progress: 15.538[s], energy -1987243, penalty energy 0, src id 0
+Progress: 15.539[s], energy -1987249, penalty energy 0, src id 0
+Progress: 15.540[s], energy -1987257, penalty energy 0, src id 0
+Progress: 16.303[s], energy -1987549, penalty energy 0, src id 0
+Progress: 17.036[s], energy -1987645, penalty energy 0, src id 0
+Progress: 17.036[s], energy -1987725, penalty energy 0, src id 0
+Progress: 17.805[s], energy -1987909, penalty energy 0, src id 0
+Progress: 17.805[s], energy -1987913, penalty energy 0, src id 0
+Progress: 18.531[s], energy -1988093, penalty energy 0, src id 0
+Progress: 19.257[s], energy -1988277, penalty energy 0, src id 0
+Progress: 19.257[s], energy -1988297, penalty energy 0, src id 0
+Progress: 20.102[s], energy -1988553, penalty energy 0, src id 0
+Progress: 20.103[s], energy -1988627, penalty energy 0, src id 0
+Progress: 20.893[s], energy -1988711, penalty energy 0, src id 0
+Progress: 20.893[s], energy -1988749, penalty energy 0, src id 0
+Progress: 21.691[s], energy -1989081, penalty energy 0, src id 0
+Progress: 22.407[s], energy -1989139, penalty energy 0, src id 0
+Progress: 22.407[s], energy -1989145, penalty energy 0, src id 0
+Progress: 23.154[s], energy -1989217, penalty energy 0, src id 0
+Progress: 23.902[s], energy -1989355, penalty energy 0, src id 0
+Progress: 23.903[s], energy -1989359, penalty energy 0, src id 0
+Progress: 23.903[s], energy -1989379, penalty energy 0, src id 0
+Progress: 24.622[s], energy -1989557, penalty energy 0, src id 0
+Progress: 24.622[s], energy -1989595, penalty energy 0, src id 0
+Progress: 25.321[s], energy -1989887, penalty energy 0, src id 0
+Progress: 25.321[s], energy -1989937, penalty energy 0, src id 0
+Progress: 25.321[s], energy -1989939, penalty energy 0, src id 0
+Progress: 26.689[s], energy -1990986, penalty energy 0, src id 1
+Progress: 38.983[s], energy -1993560, penalty energy 0, src id 1
+Progress: 51.106[s], energy -1996412, penalty energy 0, src id 1
+Progress: 62.887[s], energy -1998112, penalty energy 0, src id 1
+Progress: 66.085[s], energy -1998874, penalty energy 0, src id 0
+Progress: 66.837[s], energy -1999344, penalty energy 0, src id 0
+Progress: 67.560[s], energy -1999700, penalty energy 0, src id 0
+Progress: 67.560[s], energy -1999770, penalty energy 0, src id 0
+Progress: 67.560[s], energy -1999798, penalty energy 0, src id 0
+Progress: 68.322[s], energy -1999912, penalty energy 0, src id 0
+Progress: 68.323[s], energy -1999940, penalty energy 0, src id 0
+Progress: 69.023[s], energy -2000002, penalty energy 0, src id 0
+Progress: 69.750[s], energy -2000186, penalty energy 0, src id 0
+Progress: 69.750[s], energy -2000190, penalty energy 0, src id 0
+Progress: 69.750[s], energy -2000302, penalty energy 0, src id 0
+Progress: 70.442[s], energy -2000314, penalty energy 0, src id 0
+Progress: 70.442[s], energy -2000334, penalty energy 0, src id 0
+Progress: 72.634[s], energy -2000348, penalty energy 0, src id 0
+Progress: 78.079[s], energy -2000422, penalty energy 0, src id 0
+Progress: 78.079[s], energy -2000738, penalty energy 0, src id 0
+Progress: 81.660[s], energy -2000792, penalty energy 0, src id 0
+Progress: 81.660[s], energy -2000810, penalty energy 0, src id 0
+Progress: 81.660[s], energy -2000830, penalty energy 0, src id 0
+Progress: 82.363[s], energy -2000850, penalty energy 0, src id 0
+Progress: 82.363[s], energy -2000874, penalty energy 0, src id 0
+Progress: 83.138[s], energy -2000884, penalty energy 0, src id 0
+Progress: 83.139[s], energy -2000896, penalty energy 0, src id 0
+Progress: 86.584[s], energy -2002046, penalty energy 0, src id 1
+Progress: 92.996[s], energy -2002208, penalty energy 0, src id 0
+Progress: 92.996[s], energy -2002244, penalty energy 0, src id 0
+Progress: 92.996[s], energy -2002254, penalty energy 0, src id 0
+Progress: 92.996[s], energy -2002260, penalty energy 0, src id 0
+Progress: 93.811[s], energy -2002372, penalty energy 0, src id 0
+Progress: 93.811[s], energy -2002388, penalty energy 0, src id 0
+Progress: 93.811[s], energy -2002394, penalty energy 0, src id 0
+Progress: 94.574[s], energy -2002406, penalty energy 0, src id 0
+Progress: 94.574[s], energy -2002416, penalty energy 0, src id 0
+Progress: 94.575[s], energy -2002428, penalty energy 0, src id 0
+Progress: 96.739[s], energy -2002430, penalty energy 0, src id 0
+Progress: 98.546[s], energy -2003458, penalty energy 0, src id 1
+Progress: 110.269[s], energy -2004314, penalty energy 0, src id 1
+Progress: 121.946[s], energy -2005224, penalty energy 0, src id 1
+Progress: 133.714[s], energy -2006336, penalty energy 0, src id 1
+Progress: 144.152[s], energy -2007143, penalty energy 0, src id 0
+Progress: 144.152[s], energy -2007177, penalty energy 0, src id 0
+Progress: 144.943[s], energy -2007330, penalty energy 0, src id 0
+Progress: 144.943[s], energy -2007333, penalty energy 0, src id 0
+Progress: 144.943[s], energy -2007351, penalty energy 0, src id 0
+Progress: 144.943[s], energy -2007375, penalty energy 0, src id 0
+Progress: 145.664[s], energy -2007385, penalty energy 0, src id 0
+Progress: 146.373[s], energy -2007437, penalty energy 0, src id 0
+Progress: 156.840[s], energy -2007755, penalty energy 0, src id 1
+Progress: 168.515[s], energy -2008256, penalty energy 0, src id 1
+Progress: 180.046[s], energy -2008952, penalty energy 0, src id 1
+Progress: 187.032[s], energy -2009281, penalty energy 0, src id 0
+Progress: 187.032[s], energy -2009301, penalty energy 0, src id 0
+Progress: 187.723[s], energy -2009325, penalty energy 0, src id 0
+Progress: 187.723[s], energy -2009337, penalty energy 0, src id 0
+Progress: 188.434[s], energy -2009339, penalty energy 0, src id 0
+Progress: 203.139[s], energy -2009947, penalty energy 0, src id 1
+Progress: 214.643[s], energy -2010297, penalty energy 0, src id 1
+Progress: 226.200[s], energy -2010439, penalty energy 0, src id 1
+Progress: 230.170[s], energy -2010655, penalty energy 0, src id 1
+Solve done 230178.133074 msec
+Total done 232725.331936 msec
+|        25.24 |       554.64 |    232728.36 |         0.34 |         +2010655 |    233283.34 |
++--------------+--------------+--------------+--------------+------------------+--------------+
