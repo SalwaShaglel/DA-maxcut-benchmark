@@ -10,13 +10,20 @@ Salwa Shaglel, Markus Kirsch, Marten Winkler, Christian Münch, Stefan Walter, F
 **[arXiv Link](https://arxiv.org/6660338/)**
 
 @misc{SalwaDAMB2025,
-  author    = {Salwa Shaglel, Markus Kirsch, Marten Winkler, Christian Münch, Stefan Walter, Fritz Schinkel, Martin Kliesch},
-  title     = {A Comprehensive Benchmark of an Ising Machine on the Max-Cut Problem},
-  year      = {2025},
-  archivePrefix = {arXiv},
-  eprint={},
-  primaryClass={quant-ph},
-  url={}}
+
+author    = {Salwa Shaglel, Markus Kirsch, Marten Winkler, Christian Münch, Stefan Walter, Fritz Schinkel, Martin Kliesch},
+
+title     = {A Comprehensive Benchmark of an Ising Machine on the Max-Cut Problem},
+
+year      = {2025},
+
+archivePrefix = {arXiv},
+
+eprint={},
+
+primaryClass={quant-ph},
+
+url={}}
 
 ---
 
@@ -37,7 +44,7 @@ This repository includes data and results from our benchmarking of Digital Annea
 - **Instances:** 3,506 MQLib Max-Cut problem instances (as of 2025)
 - **Runs per instance:** 5
 - **Time-limit:** Instance-specific time limits available in **BASELINE** directory, determined by a local search algorithm (5 runs per instance).
-- **Included methods:**
+- **Included data:**
   - **DAv2:** 5 runs per instance for 3,319 instances
   - **DAv3:** 5 runs per instance for all 3,400 instances  
     Includes multiple 5-run batches per instance with different time limit offsets from 0 (no offset) to 5 seconds
@@ -45,8 +52,9 @@ This repository includes data and results from our benchmarking of Digital Annea
   - ** MQLib heuristics:** 5 runs per instance on a large subset of the 3,506 instances: MERZ1999GLS, PALUBECKIS2004bMST2, and BURER2002
  
 
-    -**NOTE:** We removed the disconnected vertices and fixed a vertex to one side of the cut. Therefore, the number of vertices of instances may differ by 1 vertex or a bit more than those provided in MQLib.
-    -**NOTE:** For instances with float weights, it is encouraged to calculate the obtained objective value from the available bit string solution to avoid rounding issues.
+
+**NOTE:** We removed the disconnected vertices and fixed a vertex to one side of the cut. Therefore, the number of vertices of instances may differ by 1 vertex or a bit more than those provided in MQLib.
+**NOTE:** For instances with float weights, it is encouraged to calculate the obtained objective value from the available bit string solution to avoid rounding issues.
 
 ---
 
