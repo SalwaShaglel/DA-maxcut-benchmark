@@ -46,14 +46,14 @@ This repository includes data and results from our benchmarking of Digital Annea
 - **Time-limit:** Instance-specific time limits available in **BASELINE** directory, determined by a local search algorithm (5 runs per instance).
 - **Included data:**
   - **DAv2:** 5 runs per instance for 3,319 instances
-  - **DAv3:** 5 runs per instance for all 3,400 instances  
+  - **DAv3:** 5 runs per instance for all 3,400 instances
     Includes multiple 5-run batches per instance with different time limit offsets from 0 (no offset) to 5 seconds
-    **Total:** ~17,331 files (CSV, TXT, JSON)
   - ** MQLib heuristics:** 5 runs per instance on a large subset of the 3,506 instances: MERZ1999GLS, PALUBECKIS2004bMST2, and BURER2002
  
 
 
 **NOTE:** We removed the disconnected vertices and fixed a vertex to one side of the cut. Therefore, the number of vertices of instances may differ by 1 vertex or a bit more than those provided in MQLib.
+
 **NOTE:** For instances with float weights, it is encouraged to calculate the obtained objective value from the available bit string solution to avoid rounding issues.
 
 ---
