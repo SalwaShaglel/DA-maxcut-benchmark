@@ -7,7 +7,7 @@ This repository contains the dataset and code for our paper:
 **Authors:**  
 Salwa Shaglel, Markus Kirsch, Marten Winkler, Christian Münch, Stefan Walter, Fritz Schinkel, Martin Kliesch  
 **Published:** 2025  
-**[arXiv Link](https://arxiv.org/6660338/)**
+**[arXiv Link](http://arxiv.org/abs/2507.22117)**
 
 @misc{SalwaDAMB2025,
 
@@ -19,11 +19,11 @@ year      = {2025},
 
 archivePrefix = {arXiv},
 
-eprint={},
+eprint={2507.22117},
 
 primaryClass={quant-ph},
 
-url={}}
+url={http://arxiv.org/abs/2507.22117}}
 
 ---
 
